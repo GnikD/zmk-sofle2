@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - F19
+  - {t: '$$mdi:backspace$$', type: backspace}
   - F13
   - F14
   - F15
@@ -94,9 +94,9 @@ layers:
   - {t: '=', s: +}
   - '&win_pass'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
+  - '&shift_f9'
+  - '&f9'
   - F19
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
@@ -106,9 +106,9 @@ layers:
   - '*'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&DymonAt1123'
-  - RGB OFF
-  - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:mouse-left-click-outline$$
   - INS
   - END
