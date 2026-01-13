@@ -84,11 +84,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F19
-&kp F13     &kp F14          &kp F15         &kp F16          &kp F17          &kp F18            &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &kp F19            &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp GRAVE  &kp F1           &kp F2          &kp F3   &kp F4   &kp F5     &mmv MOVE_UP     &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &kp F19
+&kp F13    &kp F14          &kp F15         &kp F16  &kp F17  &kp F18    &mmv MOVE_DOWN   &kp PG_UP  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp EQUAL
+&kp TILDE  &trans           &trans          &trans   &trans   &kp F19    &mmv MOVE_LEFT   &kp PG_DN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp ENTER
+&trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans   &trans   &trans     &mmv MOVE_RIGHT  &kp HOME   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp MINUS
+&trans     &trans           &trans          &trans   &trans   &trans     &mkp LCLK        &kp INS    &kp END       &kp N0        &kp N0        &kp PERIOD
             >;
 
             display-name = "layer1";
