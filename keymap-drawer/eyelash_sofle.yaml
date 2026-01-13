@@ -92,7 +92,7 @@ layers:
   - {t: '9', s: (}
   - +
   - {t: '=', s: +}
-  - '~'
+  - '&win_pass'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -105,7 +105,7 @@ layers:
   - '6'
   - '*'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&DymonAt1123'
   - RGB OFF
   - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
