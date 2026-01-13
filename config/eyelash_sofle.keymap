@@ -64,6 +64,20 @@
 
             label = "SHIFT_MCLK";
         };
+
+        DymonAt1123: DymonAt1123 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(D) &kp Y &kp M &kp O &kp N &kp AT &kp N1 &kp N1 &kp N2 &kp N3>;
+            label = "DYMONAT1123";
+        };
+
+        win_pass: win_pass {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp O &kp I &kp COMMA &kp B &kp N9 &kp I &kp ENTER>;
+            label = "WIN_PASS";
+        };
     };
 
     keymap {
@@ -84,11 +98,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp F1           &kp F2          &kp F3   &kp F4   &kp F5     &mmv MOVE_UP     &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &kp F19
-&kp F13    &kp F14          &kp F15         &kp F16  &kp F17  &kp F18    &mmv MOVE_DOWN   &kp PG_UP  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp EQUAL
-&kp TILDE  &trans           &trans          &trans   &trans   &kp F19    &mmv MOVE_LEFT   &kp PG_DN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp ENTER
-&trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans   &trans   &trans     &mmv MOVE_RIGHT  &kp HOME   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp MINUS
-&trans     &trans           &trans          &trans   &trans   &trans     &mkp LCLK        &kp INS    &kp END       &kp N0        &kp N0        &kp PERIOD
+&kp GRAVE     &kp F1           &kp F2          &kp F3   &kp F4   &kp F5     &mmv MOVE_UP     &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &kp F19
+&kp F13       &kp F14          &kp F15         &kp F16  &kp F17  &kp F18    &mmv MOVE_DOWN   &kp PG_UP  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp EQUAL
+&win_pass     &trans           &trans          &trans   &trans   &kp F19    &mmv MOVE_LEFT   &kp PG_DN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp ENTER
+&DymonAt1123  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans   &trans   &trans     &mmv MOVE_RIGHT  &kp HOME   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp MINUS
+&trans        &trans           &trans          &trans   &trans   &trans     &mkp LCLK        &kp INS    &kp END       &kp N0        &kp N0        &kp PERIOD
             >;
 
             display-name = "layer1";
