@@ -111,11 +111,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE     &kp F1          &kp F2          &kp F3     &kp F4   &kp F5        &mmv MOVE_UP     &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &kp BACKSPACE
-&kp F13       &kp F14         &kp F15         &kp F16    &kp F17  &kp F18       &mmv MOVE_DOWN   &kp PG_UP  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp EQUAL
-&win_pass     &none           &kp UP_ARROW    &shift_f9  &f9      &kp F19       &mmv MOVE_LEFT   &kp PG_DN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp ENTER
-&DymonAt1123  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none    &none         &mmv MOVE_RIGHT  &kp HOME   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp MINUS
-&trans        &kp F11         &kp F12         &none      &trans   &kp DELETE    &mkp LCLK        &kp INS    &kp END       &kp N0        &kp N0        &kp PERIOD
+&shift_f9     &kp F1          &kp F2          &kp F3           &kp F4   &kp F5        &mmv MOVE_UP     &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &kp BACKSPACE
+&f9           &kp F11         &kp F12         &kp F13          &kp F14  &kp F15       &mmv MOVE_DOWN   &kp PG_UP  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp EQUAL
+&win_pass     &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp F16  &kp F17       &mmv MOVE_LEFT   &kp PG_DN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp ENTER
+&DymonAt1123  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT        &kp F18  &kp F19       &mmv MOVE_RIGHT  &kp HOME   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp MINUS
+&trans        &trans          &trans          &trans           &trans   &kp DELETE    &mkp LCLK        &kp INS    &kp END       &kp N0        &kp N0        &kp PERIOD
             >;
 
             display-name = "layer1";
