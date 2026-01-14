@@ -98,11 +98,11 @@
 
         layer0 {
             bindings = <
-&kp ESC               &kp N1                  &kp N2        &kp N3        &kp N4  &kp N5        &kp UP_ARROW     &kp N6     &kp N7     &kp N8            &kp N9             &kp N0    &kp BACKSPACE
-&kp TAB               &kp Q                   &kp W         &kp E         &kp R   &kp T         &kp DOWN_ARROW   &kp Y      &kp U      &kp I             &kp O              &kp P     &kp BSLH
-&kp CAPS              &kp A                   &kp S         &kp D         &kp F   &kp G         &kp LEFT_ARROW   &kp H      &kp J      &kp K             &kp L              &kp SEMI  &kp ENTER
-&mt LSHFT LEFT_SHIFT  &kp Z                   &kp X         &kp C         &kp V   &kp B         &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA         &kp DOT            &kp FSLH  &kp MINUS
-&kp C_MUTE            &mt LCTRL LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &tog 1  &kp DELETE    &kp ENTER        &kp EQUAL  &kp SPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp APOS
+&kp ESC               &kp N1                  &kp N2        &kp N3                 &kp N4  &kp N5        &kp UP_ARROW     &kp N6     &kp N7     &kp N8            &kp N9             &kp N0    &kp BACKSPACE
+&kp TAB               &kp Q                   &kp W         &kp E                  &kp R   &kp T         &kp DOWN_ARROW   &kp Y      &kp U      &kp I             &kp O              &kp P     &kp BSLH
+&kp CAPS              &kp A                   &kp S         &kp D                  &kp F   &kp G         &kp LEFT_ARROW   &kp H      &kp J      &kp K             &kp L              &kp SEMI  &kp ENTER
+&mt LSHFT LEFT_SHIFT  &kp Z                   &kp X         &kp C                  &kp V   &kp B         &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA         &kp DOT            &kp FSLH  &kp MINUS
+&kp C_MUTE            &mt LCTRL LEFT_CONTROL  &kp LEFT_GUI  &mt LEFT_ALT LEFT_ALT  &tog 1  &kp DELETE    &kp ENTER        &kp EQUAL  &kp SPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp APOS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -113,9 +113,9 @@
             bindings = <
 &kp GRAVE     &kp F1          &kp F2          &kp F3     &kp F4   &kp F5        &mmv MOVE_UP     &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &kp BACKSPACE
 &kp F13       &kp F14         &kp F15         &kp F16    &kp F17  &kp F18       &mmv MOVE_DOWN   &kp PG_UP  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp EQUAL
-&win_pass     &trans          &kp UP_ARROW    &shift_f9  &f9      &kp F19       &mmv MOVE_LEFT   &kp PG_DN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp ENTER
-&DymonAt1123  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans   &trans        &mmv MOVE_RIGHT  &kp HOME   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp MINUS
-&trans        &trans          &trans          &trans     &trans   &kp DELETE    &mkp LCLK        &kp INS    &kp END       &kp N0        &kp N0        &kp PERIOD
+&win_pass     &none           &kp UP_ARROW    &shift_f9  &f9      &kp F19       &mmv MOVE_LEFT   &kp PG_DN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp ENTER
+&DymonAt1123  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none    &none         &mmv MOVE_RIGHT  &kp HOME   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp MINUS
+&trans        &kp F11         &kp F12         &none      &trans   &kp DELETE    &mkp LCLK        &kp INS    &kp END       &kp N0        &kp N0        &kp PERIOD
             >;
 
             display-name = "layer1";
