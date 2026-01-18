@@ -37,6 +37,16 @@
     };
 
     behaviors {
+    // สร้างพฤติกรรมใหม่: ต้องกดค้างนิดนึงหรือตั้งใจกดถึงจะติด
+        safe_kp: safe_key_press {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <170>;    // ปรับเป็น 170ms เพื่อไม่ให้หน่วงจนเกินไปแต่กันลั่นได้ดี
+            quick-tap-ms = <125>;       // ช่วยให้พิมพ์เบิ้ลตัวอักษรเดิมได้ง่ายขึ้น
+            require-prior-idle-ms = <125>; // ต้องมีการหยุดพักนิ้วเล็กน้อยก่อนกดปุ่มนี้ถึงจะติด (กันนิ้วแฉลบ)
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     combos {
