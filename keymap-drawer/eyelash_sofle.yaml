@@ -18,8 +18,8 @@ layers:
   - Q
   - W
   - E
-  - R
-  - T
+  - {t: R, h: R}
+  - {t: T, h: T}
   - $$mdi:arrow-down-bold$$
   - {t: Y, h: Y}
   - {t: U, h: U}
@@ -45,7 +45,7 @@ layers:
   - X
   - {t: C, h: C}
   - {t: V, h: V}
-  - B
+  - {t: B, h: B}
   - $$mdi:arrow-right-bold$$
   - {t: N, h: N}
   - {t: M, h: M}
@@ -61,8 +61,8 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '=', s: +}
-  - $$mdi:keyboard-space$$
-  - {t: '[', s: '{'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:keyboard-space$$'}
+  - {t: '[', h: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '''', s: '"'}
   layer1:
