@@ -21,8 +21,8 @@ layers:
   - R
   - T
   - $$mdi:arrow-down-bold$$
-  - {t: Y, h: '0'}
-  - {t: U, h: '0'}
+  - '&safe_kp Y'
+  - '&safe_kp U'
   - I
   - O
   - P
