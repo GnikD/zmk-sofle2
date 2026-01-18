@@ -21,8 +21,8 @@ layers:
   - R
   - T
   - $$mdi:arrow-down-bold$$
-  - '&safe_kp Y'
-  - '&safe_kp U'
+  - Y
+  - U
   - I
   - O
   - P
@@ -43,12 +43,12 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
-  - '&safe_kp C'
-  - '&safe_kp V'
+  - C
+  - V
   - B
   - $$mdi:arrow-right-bold$$
-  - '&safe_kp N'
-  - '&safe_kp M'
+  - N
+  - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
