@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - INS
+  - {t: '$$mdi:transfer$$', type: trans}
   - END
   - {t: '0', s: )}
   - {t: '0', s: )}
