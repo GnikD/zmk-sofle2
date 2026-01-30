@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: F9}
   - {t: '1', h: F1, s: '!'}
   - {t: '2', h: F2, s: '@'}
   - {t: '3', h: F3, s: '#'}
@@ -15,11 +15,11 @@ layers:
   - {t: '0', h: F10, s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - {t: R, h: R}
-  - {t: T, h: T}
+  - {t: Q, h: F11}
+  - {t: W, h: F12}
+  - {t: E, h: F13}
+  - {t: R, h: F14}
+  - {t: T, h: F15}
   - $$mdi:arrow-down-bold$$
   - {t: Y, h: Y}
   - {t: U, h: U}
@@ -31,8 +31,8 @@ layers:
   - A
   - S
   - D
-  - F
-  - G
+  - {t: F, h: F16}
+  - {t: G, h: F17}
   - $$mdi:arrow-left-bold$$
   - H
   - J
@@ -44,8 +44,8 @@ layers:
   - Z
   - X
   - {t: C, h: C}
-  - {t: V, h: V}
-  - {t: B, h: B}
+  - {t: V, h: F18}
+  - {t: B, h: F19}
   - $$mdi:arrow-right-bold$$
   - {t: N, h: N}
   - {t: M, h: M}
