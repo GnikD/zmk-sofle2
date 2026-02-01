@@ -24,7 +24,7 @@ layers:
   - {t: Y, h: Y}
   - {t: U, h: U}
   - I
-  - O
+  - {t: O, h: O}
   - {t: P, h: F11}
   - {t: \, h: F12}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -112,7 +112,7 @@ layers:
   - F18
   - F19
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - HOME
+  - {t: HOME, h: END}
   - '1'
   - '2'
   - '3'
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - END
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - {t: '0', s: )}
   - .
