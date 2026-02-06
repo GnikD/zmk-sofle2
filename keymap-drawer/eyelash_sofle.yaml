@@ -48,9 +48,9 @@ layers:
   - {t: B, h: F19}
   - $$mdi:arrow-right-bold$$
   - {t: N, h: N}
-  - {t: M, h: M}
-  - {t: ',', h: ',', s: <}
-  - {t: ., h: .}
+  - {t: M, h: '$$mdi:arrow-left-bold$$'}
+  - {t: ',', h: '$$mdi:arrow-down-bold$$', s: <}
+  - {t: ., h: '$$mdi:arrow-right-bold$$'}
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - $$mdi:volume-off$$
