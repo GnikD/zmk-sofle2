@@ -21,7 +21,7 @@ layers:
   - {t: R, h: F14}
   - {t: T, h: F15}
   - $$mdi:arrow-down-bold$$
-  - {t: Y, h: Y}
+  - {t: Y, h: PgUp}
   - {t: U, h: U}
   - I
   - {t: O, h: O}
@@ -47,7 +47,7 @@ layers:
   - {t: V, h: F18}
   - {t: B, h: F19}
   - $$mdi:arrow-right-bold$$
-  - {t: N, h: HOME}
+  - {t: N, h: END}
   - {t: M, h: M}
   - {t: ',', h: ',', s: <}
   - {t: ., h: .}
@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: INS}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '=', s: +}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:keyboard-space$$'}
+  - {t: '$$mdi:keyboard-space$$', h: PgDn}
   - {t: '[', h: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '''', s: '"'}
@@ -99,7 +99,7 @@ layers:
   - F16
   - F17
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
+  - HOME
   - '4'
   - {t: '5', s: '%'}
   - '6'
@@ -112,7 +112,7 @@ layers:
   - F18
   - F19
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: HOME, h: HOME}
+  - {t: END, h: END}
   - '1'
   - '2'
   - '3'
