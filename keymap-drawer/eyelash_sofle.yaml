@@ -21,7 +21,7 @@ layers:
   - {t: R, h: F14}
   - {t: T, h: F15}
   - $$mdi:arrow-down-bold$$
-  - {t: Y, h: PgUp}
+  - {t: Y, h: Y}
   - {t: U, h: U}
   - I
   - {t: O, h: O}
@@ -34,9 +34,9 @@ layers:
   - {t: F, h: F16}
   - {t: G, h: F17}
   - $$mdi:arrow-left-bold$$
-  - {t: H, h: PgDn}
+  - {t: H, h: HOME}
   - J
-  - {t: K, h: '$$mdi:arrow-up-bold$$'}
+  - {t: K, h: K}
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -48,9 +48,9 @@ layers:
   - {t: B, h: F19}
   - $$mdi:arrow-right-bold$$
   - {t: N, h: HOME}
-  - {t: M, h: '$$mdi:arrow-left-bold$$'}
-  - {t: ',', h: '$$mdi:arrow-down-bold$$', s: <}
-  - {t: ., h: '$$mdi:arrow-right-bold$$'}
+  - {t: M, h: M}
+  - {t: ',', h: ',', s: <}
+  - {t: ., h: .}
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - $$mdi:volume-off$$
@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: INS}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '=', s: +}
-  - {t: '$$mdi:keyboard-space$$', h: END}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:keyboard-space$$'}
   - {t: '[', h: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '''', s: '"'}
