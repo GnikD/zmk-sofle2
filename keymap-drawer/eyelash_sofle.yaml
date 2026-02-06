@@ -36,7 +36,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - H
   - J
-  - {t: K, h: K}
+  - {t: K, h: '$$mdi:arrow-up-bold$$'}
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
