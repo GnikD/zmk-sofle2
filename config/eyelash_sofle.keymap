@@ -118,7 +118,7 @@
             bindings = <
 &safe_kp F9 ESCAPE   &safe_kp F1 N1  &safe_kp F2 N2  &safe_kp F3 N3              &safe_kp F4 N4  &safe_kp F5 N5      &kp UP_ARROW     &safe_kp F6 N6  &safe_kp F7 N7        &safe_kp F8 N8                      &safe_kp F9 N9          &safe_kp F10 N0  &kp BACKSPACE
 &kp TAB              &safe_kp F11 Q  &safe_kp F12 W  &safe_kp F13 E              &safe_kp F14 R  &safe_kp F15 T      &kp DOWN_ARROW   &safe_kp Y Y    &safe_kp U U          &kp I                               &safe_kp O O            &safe_kp F11 P   &safe_kp F12 NON_US_BACKSLASH
-&mt LEFT_SHIFT CAPS  &kp A           &kp S           &kp D                       &safe_kp F16 F  &safe_kp F17 G      &kp LEFT_ARROW   &kp H           &kp J                 &safe_kp K K                        &kp L                   &kp SEMI         &kp ENTER
+&mt LEFT_SHIFT CAPS  &kp A           &kp S           &kp D                       &safe_kp F16 F  &safe_kp F17 G      &kp LEFT_ARROW   &kp H           &kp J                 &safe_kp UP_ARROW K                 &kp L                   &kp SEMI         &kp ENTER
 &mt LCTRL LCTRL      &kp Z           &kp X           &safe_kp C C                &safe_kp F18 V  &safe_kp F19 B      &kp RIGHT_ARROW  &safe_kp N N    &safe_kp M M          &safe_kp COMMA COMMA                &safe_kp PERIOD PERIOD  &kp FSLH         &kp MINUS
 &kp C_MUTE           &g541           &kp LEFT_GUI    &safe_kp LEFT_ALT LEFT_ALT  &to 1           &safe_kp INS DEL    &kp ENTER        &kp EQUAL       &safe_kp SPACE SPACE  &safe_kp LEFT_BRACKET LEFT_BRACKET  &kp RIGHT_BRACKET       &kp APOS
             >;
