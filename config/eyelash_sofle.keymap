@@ -116,11 +116,11 @@
 
         layer0 {
             bindings = <
-&safe_kp F9 ESCAPE   &safe_kp F1 N1  &safe_kp F2 N2  &safe_kp F3 N3              &safe_kp F4 N4  &safe_kp F5 N5      &kp UP_ARROW     &safe_kp F6 N6  &safe_kp F7 N7        &safe_kp F8 N8                      &safe_kp F9 N9     &safe_kp F10 N0  &kp BACKSPACE
-&kp TAB              &safe_kp F11 Q  &safe_kp F12 W  &safe_kp F13 E              &safe_kp F14 R  &safe_kp F15 T      &kp DOWN_ARROW   &safe_kp Y Y    &safe_kp U U          &kp I                               &safe_kp O O       &safe_kp F11 P   &safe_kp F12 NON_US_BACKSLASH
-&mt LEFT_SHIFT CAPS  &kp A           &kp S           &kp D                       &safe_kp F16 F  &safe_kp F17 G      &kp LEFT_ARROW   &kp H           &kp J                 &kp K                               &kp L              &kp SEMI         &kp ENTER
-&mt LCTRL LCTRL      &kp Z           &kp X           &safe_kp C C                &safe_kp F18 V  &safe_kp F19 B      &kp RIGHT_ARROW  &safe_kp N N    &safe_kp M M          &kp COMMA                           &kp DOT            &kp FSLH         &kp MINUS
-&kp C_MUTE           &g541           &kp LEFT_GUI    &safe_kp LEFT_ALT LEFT_ALT  &tog 1          &safe_kp INS DEL    &kp ENTER        &kp EQUAL       &safe_kp SPACE SPACE  &safe_kp LEFT_BRACKET LEFT_BRACKET  &kp RIGHT_BRACKET  &kp APOS
+&safe_kp F9 ESCAPE   &safe_kp F1 N1  &safe_kp F2 N2  &safe_kp F3 N3              &safe_kp F4 N4  &safe_kp F5 N5      &kp UP_ARROW     &safe_kp F6 N6  &safe_kp F7 N7        &safe_kp F8 N8                      &safe_kp F9 N9          &safe_kp F10 N0  &kp BACKSPACE
+&kp TAB              &safe_kp F11 Q  &safe_kp F12 W  &safe_kp F13 E              &safe_kp F14 R  &safe_kp F15 T      &kp DOWN_ARROW   &safe_kp Y Y    &safe_kp U U          &kp I                               &safe_kp O O            &safe_kp F11 P   &safe_kp F12 NON_US_BACKSLASH
+&mt LEFT_SHIFT CAPS  &kp A           &kp S           &kp D                       &safe_kp F16 F  &safe_kp F17 G      &kp LEFT_ARROW   &kp H           &kp J                 &safe_kp K K                        &kp L                   &kp SEMI         &kp ENTER
+&mt LCTRL LCTRL      &kp Z           &kp X           &safe_kp C C                &safe_kp F18 V  &safe_kp F19 B      &kp RIGHT_ARROW  &safe_kp N N    &safe_kp M M          &safe_kp COMMA COMMA                &safe_kp PERIOD PERIOD  &kp FSLH         &kp MINUS
+&kp C_MUTE           &g541           &kp LEFT_GUI    &safe_kp LEFT_ALT LEFT_ALT  &to 1           &safe_kp INS DEL    &kp ENTER        &kp EQUAL       &safe_kp SPACE SPACE  &safe_kp LEFT_BRACKET LEFT_BRACKET  &kp RIGHT_BRACKET       &kp APOS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -133,7 +133,7 @@
 &trans  &kp F11         &kp F12         &kp F13          &kp F14  &kp F15    &mmv MOVE_DOWN   &kp PG_UP          &kp N7        &kp N8        &kp N9        &kp PLUS      &kp EQUAL
 &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp F16  &kp F17    &mmv MOVE_LEFT   &kp PG_DN          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp ENTER
 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT        &kp F18  &kp F19    &mmv MOVE_RIGHT  &safe_kp END HOME  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp MINUS
-&trans  &trans          &trans          &trans           &trans   &trans     &mkp LCLK        &trans             &trans        &kp N0        &kp N0        &kp PERIOD
+&trans  &trans          &trans          &trans           &to 3    &trans     &mkp LCLK        &trans             &trans        &kp N0        &kp N0        &kp PERIOD
             >;
 
             display-name = "layer1";
@@ -142,11 +142,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans  &trans  &trans      &trans     &trans       &trans
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &trans      &trans     &trans       &trans
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &trans       &trans
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&trans     &trans        &trans          &trans        &to 0         &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             display-name = "layer2";
@@ -155,11 +155,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                    &trans                      &trans                &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                    &trans                      &trans                &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                    &safe_kp UP_ARROW UP_ARROW  &trans                &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &safe_kp LEFT_ARROW LEFT  &safe_kp DOWN DOWN_ARROW    &safe_kp RIGHT RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &to 0   &trans    &trans  &trans  &trans                    &trans                      &trans                &trans
             >;
 
             display-name = "layer3";
