@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - '&g541'
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F9, h: '$$mdi:apple-keyboard-option$$'}
   - {t: layer1, h: toggle}
   - {t: '$$mdi:backspace-reverse-outline$$', h: INS}
   - {t: '$$mdi:keyboard-return$$', type: enter}
