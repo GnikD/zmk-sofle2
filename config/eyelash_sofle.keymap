@@ -43,7 +43,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <188>;    // ปรับเป็น 170ms เพื่อไม่ให้หน่วงจนเกินไปแต่กันลั่นได้ดี higher is you need more time to hold.
+            tapping-term-ms = <198>;    // ปรับเป็น 170ms เพื่อไม่ให้หน่วงจนเกินไปแต่กันลั่นได้ดี higher is you need more time to hold.
             quick-tap-ms = <125>;       // ช่วยให้พิมพ์เบิ้ลตัวอักษรเดิมได้ง่ายขึ้น
             require-prior-idle-ms = <125>; // ต้องมีการหยุดพักนิ้วเล็กน้อยก่อนกดปุ่มนี้ถึงจะติด (กันนิ้วแฉลบ)
             bindings = <&kp>, <&kp>;
