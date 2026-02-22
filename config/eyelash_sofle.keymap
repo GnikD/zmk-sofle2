@@ -133,7 +133,7 @@
 &trans  &kp F11         &kp F12         &kp F13          &kp F14  &kp F15    &mmv MOVE_DOWN   &kp PG_UP         &kp N7        &kp N8        &kp N9        &kp PLUS      &kp EQUAL
 &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp F16  &kp F17    &mmv MOVE_LEFT   &kp HOME          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp ENTER
 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT        &kp F18  &kp F19    &mmv MOVE_RIGHT  &safe_kp END END  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp MINUS
-&trans  &trans          &trans          &trans           &to 0    &trans     &mkp LCLK        &trans            &trans        &kp N0        &kp N0        &kp PERIOD
+&trans  &trans          &trans          &to 2            &to 0    &trans     &mkp LCLK        &trans            &trans        &kp N0        &kp N0        &kp PERIOD
             >;
 
             display-name = "layer1";
