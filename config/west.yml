@@ -17,7 +17,8 @@ manifest:
       revision: main
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      # change from revision: v0.3.0 to revision: main to acomodate battery percentage display in conf file
+      revision: main
       import: app/west.yml
   self:
     path: boards
