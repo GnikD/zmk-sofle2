@@ -54,9 +54,9 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - $$mdi:volume-off$$
-  - '&g541'
-  - $$mdi:apple-keyboard-command$$
   - {t: F9, h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-command$$
+  - '&shift_f9'
   - {t: layer1, h: toggle}
   - {t: '$$mdi:backspace-reverse-outline$$', h: INS}
   - {t: '$$mdi:keyboard-return$$', type: enter}
