@@ -120,7 +120,7 @@
 &kp TAB              &safe_kp F11 Q        &safe_kp F12 W  &safe_kp F13 E      &safe_kp F14 R  &safe_kp F15 T      &kp DOWN_ARROW   &safe_kp PAGE_UP Y  &safe_kp U U              &kp I                              &safe_kp O O                              &safe_kp F11 P   &safe_kp F12 NON_US_BACKSLASH
 &mt LEFT_SHIFT CAPS  &safe_kp PAGE_UP A    &kp S           &kp D               &safe_kp F16 F  &safe_kp F17 G      &kp LEFT_ARROW   &safe_kp HOME H     &kp J                     &safe_kp K K                       &kp L                                     &kp SEMI         &kp ENTER
 &mt LCTRL LCTRL      &safe_kp PAGE_DOWN Z  &kp X           &safe_kp C C        &safe_kp F18 V  &safe_kp F19 B      &kp RIGHT_ARROW  &safe_kp END N      &safe_kp M M              &safe_kp COMMA COMMA               &safe_kp PERIOD PERIOD                    &kp FSLH         &kp MINUS
-&kp C_MUTE           &safe_kp LEFT_ALT F9  &kp LEFT_GUI    &safe_kp LS(F9) F9  &to 1           &safe_kp INS DEL    &kp ENTER        &kp EQUAL           &safe_kp PAGE_DOWN SPACE  &safe_kp LC(PAGE_UP) LEFT_BRACKET  &safe_kp LC(PAGE_DOWN) LC(RIGHT_BRACKET)  &kp APOS
+&kp C_MUTE           &safe_kp LEFT_ALT F9  &kp LEFT_GUI    &safe_kp F9 LS(F9)  &to 1           &safe_kp INS DEL    &kp ENTER        &kp EQUAL           &safe_kp PAGE_DOWN SPACE  &safe_kp LC(PAGE_UP) LEFT_BRACKET  &safe_kp LC(PAGE_DOWN) LC(RIGHT_BRACKET)  &kp APOS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
