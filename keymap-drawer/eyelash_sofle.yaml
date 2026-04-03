@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - $$mdi:volume-off$$
-  - {t: Ctl+H, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F9, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-command$$
   - {t: F9, h: Sft+F9}
   - {t: layer1, h: toggle}
@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '=', s: +}
   - {t: '$$mdi:keyboard-space$$', h: PgDn}
-  - {t: Ctl+PgUp, h: '['}
-  - {t: Ctl+PgDn, h: ']'}
+  - {t: '[', h: Ctl+PgUp, s: '{'}
+  - {t: 'Ctl+]', h: Ctl+PgDn, s: 'Ctl+}'}
   - {t: '''', s: '"'}
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
