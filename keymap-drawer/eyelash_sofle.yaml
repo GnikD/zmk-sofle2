@@ -63,7 +63,7 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:keyboard-space$$', h: PgDn}
   - {t: '[', h: Ctl+PgUp, s: '{'}
-  - {t: 'Ctl+]', h: Ctl+PgDn, s: 'Ctl+}'}
+  - {t: ']', h: Ctl+PgDn, s: '}'}
   - {t: '''', s: '"'}
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
