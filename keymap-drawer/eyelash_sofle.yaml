@@ -25,8 +25,8 @@ layers:
   - {t: U, h: U}
   - I
   - {t: O, h: O}
-  - {t: P, h: F11}
-  - {t: \, h: F12}
+  - {t: P, h: P}
+  - {t: \, h: \}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: A, h: PgUp}
   - S
