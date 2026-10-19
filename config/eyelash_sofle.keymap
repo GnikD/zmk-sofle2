@@ -78,7 +78,7 @@
         DymonAt1123: DymonAt1123 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp G &kp LS(D) &kp Y &kp M &kp O &kp N &kp AT &kp N1 &kp N1 &kp N2 &kp N3>;
+            bindings = <&kp B &kp B &kp LS(D) &kp Y &kp M &kp O &kp N &kp AT &kp N1 &kp N1 &kp N2 &kp N3>;
             label = "DYMONAT1123";
         };
 
